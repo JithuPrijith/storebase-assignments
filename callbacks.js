@@ -9,7 +9,7 @@ function arraysplit(data) {
 
 function setDelay(data, i) {
   setTimeout(async () => {
-    let res =await arraysplit(data);
+    let res = await arraysplit(data);
     console.log(res);
   }, i * 1000);
 }

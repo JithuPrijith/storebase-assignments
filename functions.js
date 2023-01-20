@@ -41,8 +41,6 @@ add3(5, 7);
 
 // console.log(decoupling(5, 3));
 
-
-
 // Function to find factorial of a number
 const factorial = (x) => {
   let result = x;
