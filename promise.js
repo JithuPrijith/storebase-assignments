@@ -1,7 +1,7 @@
 //  print hello world promise
 
 function delay(word) {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     setTimeout(() => {
       resolve(word);
     }, 2000);
@@ -25,4 +25,3 @@ delay("h")
     console.log(word);
     return delay("0");
   });
-  

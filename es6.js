@@ -24,6 +24,7 @@ console.log(name1, age);
 var promise = new Promise((resolve, reject) => {
   console.log("inside promise");
   resolve();
+  reject();
 }).then(() => {
   console.log("then");
 });

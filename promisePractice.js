@@ -7,12 +7,11 @@ function wait3000(callback) {
   });
 }
 
-// wait3000(() => {
-//   console.log("waited and worked");
-// });
+wait3000(() => {
+  console.log("waited and worked");
+});
 
 //  using then
-
 function wait4000() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {

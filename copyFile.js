@@ -24,5 +24,4 @@ function copyFile2(src, dest) {
   });
 }
 
-
 copyFile2("copyFile.js", "textDest.txt");
