@@ -27,9 +27,3 @@ function sendMessage(user) {
   document.querySelectorAll("input").forEach((val) => val.value ="");
 }
 
-// chatDiv.classList.add(
-//     "d-flex",
-//     "justify-content-end",
-//     "bg-primary",
-//     "w-100"
-//   );
