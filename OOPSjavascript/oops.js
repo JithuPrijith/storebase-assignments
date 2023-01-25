@@ -55,8 +55,8 @@ class Vehicle {
 let vehicle1 = new Vehicle("benz",120000);
 console.log(vehicle1);
 console.log(vehicle1.increasePrice(15179));  // normal case we want to call the function to change the price
-vehicle1.decreasePrice = 100000;  // because of using set before function if we directly assign value the function will call
+vehicle1.decreasePrice = 100000; // because of using set before function if we directly assign value the function will call
 console.log(vehicle1);
 
-console.log(vehicle1.offerPrice);  // get - no function call needed but it is a function
+console.log(vehicle1.offerPrice); // get - no function call needed but it is a function
 
